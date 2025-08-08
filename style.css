@@ -305,3 +305,21 @@ footer {
 .footer-socials a:hover {
   color: #ff69b4; /* pink on hover */
 }
+@media (max-width: 768px) {
+  .contact-container, .about-container, .projects-container {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .hamburger {
+    font-size: 28px;
+    padding: 10px;
+    display: block;
+  }
+
+  .footer-socials a {
+    font-size: 20px;
+    margin: 0 8px;
+  }
+}
+
