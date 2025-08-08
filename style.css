@@ -322,4 +322,9 @@ footer {
     margin: 0 8px;
   }
 }
+.sidebar a.active {
+  color: #00bfff; /* light blue or any highlight color */
+  font-weight: bold;
+}
+
 
